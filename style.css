@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #2EC66E;
-  --secondary-color: #F1C40F;
-  --tertiary-color: #F39C12;
+  --primary-color: #F1C40F;
+  --secondary-color: #F39C12 ;
+  --tertiary-color: #2EC66E;
   --heading-font-family: 'Playfair Display', serif;
   --default-font-family: 'Work Sans', sans-serif;
 }
