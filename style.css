@@ -59,12 +59,12 @@ text-align: center;
 font-size: 18px;
 line-height: 27px;
 background-color: var(--secondary-color);
-border:none;
+border: 1px solid #F1C40F;
 border-radius: 4px;
 }
 .btn-branding:hover {
   background: var(--tertiary-color);
-  border:none;
+  border:2px solid var(--primary-color);
   border-radius: 4px;
 }
 
@@ -76,13 +76,13 @@ border-radius: 4px;
   /*position: absolute;*/
   font-size: 18px;
   line-height: 27px;
-  background-color: none;
-  border:2px solid #F1C40F;
+  background-color: inherit;
+  border:2px solid var(--secondary-color);
   border-radius: 4px;
   }
   .btn-branding:hover {
-    background: none;
-    border:2px solid #F39C12;
+    background: inherit;
+    border:2px solid var(--secondary-color);
     border-radius: 4px;
   }
 
