@@ -22,7 +22,7 @@ img {
 .hero {
   background-color: var(--dark-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 160px 0 40px 0;
   color: var(--light-color)
 }
 
@@ -101,7 +101,7 @@ p {
 
 .btn-branding {
 padding: 15px 30px;
-margin: 10px;
+margin: 40px;
 width: 200px;
 text-align: center;
 /*position: absolute;*/
