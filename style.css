@@ -22,9 +22,35 @@ img {
 .hero {
   background-color: var(--dark-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
   color: var(--light-color)
+}
 
+.about-section {
+  background-color: var(--dark-color);
+  text-align: center;
+  color: var(--light-color);
+  padding: 160px 30px;
+
+}
+
+.about-section h1 {
+  font-size:64px;
+  line-height:80px;
+}
+
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-size:18px;
+}
+
+.about-section p {
+  font-size: 16px;
+}
+
+.about-section img {
+  border-radius: 4px;
+  float:left;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,6 +66,10 @@ h1 {
 
 h2 {
   font-size:64px
+}
+
+a {
+color: var(--blast-color);
 }
 
 .focus {
@@ -115,7 +145,7 @@ border-radius: 4px;
   color: var(--bright-color);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
     .project-description {
       padding: 0;
       text-align: center;
@@ -126,5 +156,15 @@ border-radius: 4px;
       background-color: var(--dark-color);
       text-align: center;
       padding: 80px 20px;
+    }
+    .about-section {
+      background-color: var(--dark-color);
+      text-align: center;
+      padding: 0;
+    }
+    .about-section img {
+    max-width: 200px;
+    max-height: 200px;
+    float:none;
     }
   }
