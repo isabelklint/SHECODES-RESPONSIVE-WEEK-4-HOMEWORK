@@ -26,29 +26,31 @@ img {
   color: var(--light-color)
 }
 
-.about-section {
-  background-color: var(--dark-color);
+.content-container {
+  background-color: var(--light-color);
   text-align: center;
   color: var(--light-color);
   padding: 160px 30px;
 
 }
 
-.about-section h1 {
+.content h1 {
   font-size:64px;
   line-height:80px;
+  color: var(--dark-color)
 }
 
-.about-section h2 {
+.content h2 {
   font-family: var(--default-font-family);
-  font-size:18px;
+  color: var(--bright-color);
+  font-size:20px;
 }
 
-.about-section p {
+.content p {
   font-size: 16px;
 }
 
-.about-section img {
+.content img {
   border-radius: 4px;
   float:left;
 }
@@ -119,6 +121,16 @@ border-radius: 4px;
   border-radius: 4px;
 }
 
+.content-container .btn-branding {
+  background-color: var(--dark-color);
+  color: var(--bright-color);
+  border: none;
+}
+.content-container .btn-branding:hover {
+  background-color: var(--bright-color);
+  color: var(--dark-color);
+  border: none;
+}
 .btn-branding-outline {
   padding: 15px 30px;
   margin: 10px;
@@ -157,12 +169,12 @@ border-radius: 4px;
       text-align: center;
       padding: 80px 20px;
     }
-    .about-section {
-      background-color: var(--dark-color);
+    .content-container {
+      background-color: var(--light-color);
       text-align: center;
       padding: 0;
     }
-    .about-section img {
+    .content img {
     max-width: 200px;
     max-height: 200px;
     float:none;
