@@ -77,6 +77,12 @@ h2 {
 
 a {
 color: var(--blast-color);
+text-decoration: none;
+}
+
+a:hover {
+  color: var(--bright-color);
+  text-decoration: none;
 }
 
 .focus {
@@ -177,7 +183,7 @@ border-radius: 4px;
     .content-container {
       background-color: var(--light-color);
       text-align: center;
-      padding: 0;
+      padding: 10px;
     }
     .avatar img {
     max-width: 200px;
