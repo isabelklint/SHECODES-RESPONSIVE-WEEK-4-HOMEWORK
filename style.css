@@ -61,11 +61,24 @@ img {
 }
 
 .logo {
-  height: 40px;
+  height: 30px;
+  margin: 5px 0 0 0;
 }
 
 nav {
-  display: inline;
+  padding: 5px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+ display: inline;
+ line-height: 40px;
+ list-style: none;
+ margin-left: 15px
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -86,9 +99,10 @@ h2 {
 a {
 color: var(--blast-color);
 text-decoration: none;
+transition: all 100ms ease-in-out;
 }
 
-a:hover {
+a:hover, nav li.active a {
   color: var(--bright-color);
   text-decoration: none;
 }
@@ -197,5 +211,15 @@ border-radius: 4px;
     max-width: 200px;
     max-height: 200px;
     float:none;
+    }
+
+    .logo {
+      width: 30px;
+      height: 30px;
+    }
+    nav {
+      font-size: 14px;
+      margin: 5px;
+      padding: 5px;
     }
   }
